@@ -13,7 +13,7 @@
 		01727438293012F2009210C1 /* PreferencePanesSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01727437293012F2009210C1 /* PreferencePanesSupport.framework */; };
 		01727439293012F2009210C1 /* PreferencePanesSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01727437293012F2009210C1 /* PreferencePanesSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0172743D29335EBE009210C1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0172743C29335EBE009210C1 /* README.md */; };
-		01D5D6B4292FFF3C008A6CD6 /* scrollswitcher-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 01D5D6B3292FFDA5008A6CD6 /* scrollswitcher-Bridging-Header.h */; };
+		9294A5842D459E8B0020B354 /* scrollswitcher-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 9294A5832D459E160020B354 /* scrollswitcher-Bridging-Header.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,10 +36,10 @@
 		012F20B22928CDEF0060F6E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		012F20B52928CDEF0060F6E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		012F20B72928CDEF0060F6E2 /* scrollswitcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = scrollswitcher.entitlements; sourceTree = "<group>"; };
-		01727437293012F2009210C1 /* PreferencePanesSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanesSupport.framework; path = ../../../../../System/Library/PrivateFrameworks/PreferencePanesSupport.framework; sourceTree = "<group>"; };
+		01727437293012F2009210C1 /* PreferencePanesSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanesSupport.framework; path = /System/Library/PrivateFrameworks/PreferencePanesSupport.framework; sourceTree = "<group>"; };
 		0172743B29315693009210C1 /* scrollswitcherRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = scrollswitcherRelease.entitlements; sourceTree = "<group>"; };
 		0172743C29335EBE009210C1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		01D5D6B3292FFDA5008A6CD6 /* scrollswitcher-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "scrollswitcher-Bridging-Header.h"; sourceTree = "<group>"; };
+		9294A5832D459E160020B354 /* scrollswitcher-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scrollswitcher-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +75,8 @@
 		012F20AD2928CDEE0060F6E2 /* scrollswitcher */ = {
 			isa = PBXGroup;
 			children = (
+				9294A5832D459E160020B354 /* scrollswitcher-Bridging-Header.h */,
 				0172743B29315693009210C1 /* scrollswitcherRelease.entitlements */,
-				01D5D6B1292FF769008A6CD6 /* Bridging */,
 				012F20AE2928CDEE0060F6E2 /* scrollswitcherApp.swift */,
 				012F20B22928CDEF0060F6E2 /* Assets.xcassets */,
 				012F20B72928CDEF0060F6E2 /* scrollswitcher.entitlements */,
@@ -99,14 +99,6 @@
 				01727437293012F2009210C1 /* PreferencePanesSupport.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		01D5D6B1292FF769008A6CD6 /* Bridging */ = {
-			isa = PBXGroup;
-			children = (
-				01D5D6B3292FFDA5008A6CD6 /* scrollswitcher-Bridging-Header.h */,
-			);
-			path = Bridging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01D5D6B4292FFF3C008A6CD6 /* scrollswitcher-Bridging-Header.h in Sources */,
+				9294A5842D459E8B0020B354 /* scrollswitcher-Bridging-Header.h in Sources */,
 				012F20AF2928CDEE0060F6E2 /* scrollswitcherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = scrollswitcher/scrollswitcher.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -329,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ca.z4xh.scrollswitcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/bagrii/devel/apps/scrollswitcher/scrollswitcher/Bridging/scrollswitcher-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
@@ -344,6 +337,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = scrollswitcher/scrollswitcherRelease.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -365,7 +359,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ca.z4xh.scrollswitcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/bagrii/devel/apps/scrollswitcher/scrollswitcher/Bridging/scrollswitcher-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/$(PROJECT_NAME)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
