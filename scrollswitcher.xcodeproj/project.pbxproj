@@ -312,7 +312,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"scrollswitcher/Preview Content\"";
-				DEVELOPMENT_TEAM = DPPHL323K8;
+				DEVELOPMENT_TEAM = 36NDQYW5D2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -326,7 +326,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				NEW_SETTING = "";
-				PRODUCT_BUNDLE_IDENTIFIER = onethinglab.scrollswitcher;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.z4xh.scrollswitcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/bagrii/devel/apps/scrollswitcher/scrollswitcher/Bridging/scrollswitcher-Bridging-Header.h";
@@ -348,7 +348,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"scrollswitcher/Preview Content\"";
-				DEVELOPMENT_TEAM = DPPHL323K8;
+				DEVELOPMENT_TEAM = 36NDQYW5D2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -362,7 +362,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				NEW_SETTING = "";
-				PRODUCT_BUNDLE_IDENTIFIER = onethinglab.scrollswitcher;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.z4xh.scrollswitcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/bagrii/devel/apps/scrollswitcher/scrollswitcher/Bridging/scrollswitcher-Bridging-Header.h";
